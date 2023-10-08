@@ -1,4 +1,18 @@
-function count_Bs(string, char){
+function count_Bs(string){
+    let counter = 0;
+    for (let iterator of string) {
+        if(iterator === "B"){
+             counter+=1
+    
+        }
+    } 
+    return counter
+
+}
+const my_string = "Ba Bla black sheep"
+console.log("The amount of Bs are ",count_Bs(my_string, "l"))
+
+function count_char(string, char){
     let counter = 0;
     for (let iterator of string) {
         if(iterator === char){
@@ -9,5 +23,4 @@ function count_Bs(string, char){
     return counter
 
 }
-const my_string = "BaBaloBla"
-console.log(count_Bs(my_string, "l"))
+console.log("Char is equal to ", count_char(my_string, "l"))
