@@ -20,7 +20,7 @@ function createGameBoard(rows, columns, content) {
     return board;
 }
 
-let numRows = 4;
+let numRows = 3;
 let numCols = 3;
 let content = [
     { row: 0, col: 0, value: "X" },
